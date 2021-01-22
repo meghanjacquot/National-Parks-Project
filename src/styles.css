@@ -37,6 +37,13 @@ body {
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
+button:hover {
+  color: #fff;
+  background: #885df1;
+  border-radius: 55px;
+  display: block;
+}
+
 button {
   border-radius: 55px;
   margin: 0 auto;
@@ -51,11 +58,4 @@ button {
   transition: all 200ms ease;
   box-shadow: 10px 10px 20px #008080;
   cursor: pointer;
-}
-
-button:hover {
-  color: #fff;
-  background: #885df1;
-  border-radius: 55px;
-  display: block;
 }
